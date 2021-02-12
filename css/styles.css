@@ -116,4 +116,13 @@ body {
         justify-content: space-between;
         width:53%;
     }
+    .menuLinks >li {
+        background-image: linear-gradient(transparent 0%, transparent 50%, fff);
+    }
+
+    .menuLink >li:hover{
+        background-position: right;
+        color:#000;
+        margin: -8px 0;
+    }
 } 
